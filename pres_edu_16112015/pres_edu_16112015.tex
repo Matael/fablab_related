@@ -1,0 +1,219 @@
+\documentclass[10pt, compress]{beamer}
+
+	\usetheme[usetitleprogressbar]{m}
+
+
+	\usepackage{booktabs}
+	\usepackage{amsmath}
+	\usepackage{nicefrac}
+	\usepackage{color}
+	\usepackage{wrapfig}
+	\usepackage{tikz}
+
+
+	\title{Un fablab au Mans}
+	\subtitle{}
+	\date{16 Novembre 2015}
+	\author{HAUM --- Mathieu Gaborit}
+	\institute{}
+
+\begin{document}
+	\maketitle
+
+	\begin{frame}
+		\frametitle{Qui Parle ?}
+
+		\begin{block}{Mathieu Gaborit}
+			\begin{itemize}
+				\item Co-fondateur du \alert{HAUM} (Hackerspace Au Mans)
+				\item Étudiant en Acoustique à l'\alert{Université du Maine}
+				\item A travaillé pour la CCI dans le cadre du \alert{projet de fablab}
+			\end{itemize}
+		\end{block}
+
+		\begin{block}{HAUM -- Hackerspace Au Mans}
+				\begin{tikzpicture}[remember picture,overlay]
+					\draw (current page.east) + (-3,0) node { \includegraphics[width=0.4\textwidth]{logo_haum}};
+				\end{tikzpicture}
+				\begin{itemize}
+				\item \alert{30+} membres
+				\item \alert{3 ans} d'existence
+				\item \alert{50} dépôts de code open-source sur Github
+				\item \alert{4} formations sur Arduino, Git, etc...
+				\item \alert{Projets divers} : opendata, lumière, musique, hack, etc...
+			\end{itemize}
+
+
+		\end{block}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Au Menu}
+	  \setbeamertemplate{section in toc}[sections numbered]
+		\tableofcontents
+	\end{frame}
+
+
+	\section{Qu'est ce qu'un fablab ?}
+	\begin{frame}
+		\frametitle{Fabalb : Définition}
+		\begin{quotation}
+			Un fab lab (contraction de l'anglais fabrication laboratory, « laboratoire de fabrication ») est un lieu ouvert au
+			public où il est mis à sa disposition toutes sortes d'outils, notamment des machines-outils pilotées par
+			ordinateur, pour la conception et la réalisation d'objets.\\
+			\begin{flushright}
+			--- \textbf{Wikipedia}
+			\end{flushright}
+		\end{quotation}
+		\pause
+
+		\begin{center}
+			\large Fablab = \alert{lieu d'échanges et d'innovation}
+		\end{center}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Fablab : le nécessaire}
+
+		Petite recette pour un fablab semi-public :
+
+		\pause
+
+		\begin{itemize}[<+->]
+			\item Un \alert{lieu}
+			\item Des \alert{équipements}
+			\item Un/Des animateur(s)
+			\item Des opérations, des objets de \alert{communication}
+			\item Un \alert{contexte} économique et éducatif \alert{favorable}
+		\end{itemize}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Une orientation économique}
+
+		Possibilité d'amener le lieu vers les entreprises :
+		\begin{itemize}
+			\item Mise à disposition d'\alert{outils de prototypage} à moindre coût (mutualisés)
+			\item Organisation de \alert{workshops}, de conférences
+			\item \alert{Mise en relation} d'entrepeneurs dans un cadre de travail
+		\end{itemize}
+
+
+		\pause
+
+		\begin{tikzpicture}[remember picture, overlay]
+			\draw (current page.north east) + (-1.5,-2.5) node {\includegraphics[width=0.1\textwidth]{french_tech.png}};
+		\end{tikzpicture}
+		\begin{center}
+			\large Important pour l'obtention du label \alert{FrenchTech}
+		\end{center}
+	\end{frame}
+
+	\section{Points Importants}
+
+	\begin{frame}
+		\frametitle{Atouts pour l'éducation}
+
+		\begin{itemize}
+			\item \alert{Outil de travail} pour les étudiants
+			\item Atelier équipé nécessaire à la \alert{réalisation d'essais}
+			\item Prise de conscience sur les \alert{techniques de fabrication}
+			\item \alert{Rencontre} avec des entreprises
+			\item \alert{Formation} sur le terrain
+		\end{itemize}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Atouts pour les entreprises}
+
+		\begin{itemize}
+			\item Accès ponctuel à des outils exceptionnels pour \alert{prototyper}
+			\item \alert{Réduction des coûts} du prototypage \& du développement
+			\item Rencontre avec d'autres entreprises, d'\alert{autres compétences}
+			\item \alert{Formation continue} des équipes
+		\end{itemize}
+	\end{frame}
+
+	\section{Etat du projet au Mans}
+
+	\begin{frame}
+		\frametitle{Une autre approche : le fablab distribué}
+
+		\begin{center}
+			\alert{Idée :} Relier les projets existants et créer le lieu complémentaire des autres
+		\end{center}
+
+		\pause
+		\begin{itemize}
+			\item Réduction des coûts
+			\item Inclusion dans un \alert{écosystème plus global}
+			\item Mise en place de \alert{partenariats}
+			\item \alert{Échanges d'idées}, de savoir faire
+			\item Création d'une \alert{offre cohérente} sur Le Mans
+		\end{itemize}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Les partenaires -- Les Lieux}
+
+		\begin{description}
+			\item[Créalab] $\Rightarrow$ Petit usinage, conception, usinage propre
+			\item[Les Subsistances] $\Rightarrow$ Usinage grand volume, métallerie
+			\item[La Ruche Numérique] $\Rightarrow$ Accueil des start-uppers
+			\item[HAUM] $\Rightarrow$ Accueil des particuliers
+		\end{description}
+
+		\pause
+
+		Il manque donc : un lieu pour les usinages de moyen format, équipé pour :
+
+		\pause
+
+		\begin{itemize}[<+->]
+			\item \alert{workshops}
+			\item \alert{prototypage} électronique (PCB, soudure, mesure)
+			\item \alert{prototypage} mécanique simple (tournage/fraisage, découpe, etc..)
+			\item \alert{conception}
+		\end{itemize}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Timeline}
+
+		\begin{tikzpicture}[overlay, remember picture]
+			\draw (current page.north east) + (-2,-2.5) node {\includegraphics[width=0.25\textwidth]{logo_ruche.png}};
+			\draw (current page.south east) + (-2.5,+2) node {\includegraphics[width=0.2\textwidth]{logo_crealab.png}};
+		\end{tikzpicture}
+
+		\begin{itemize}
+			\item \textbf{Nov. 2012} Début du projet --- Création du \alert{HAUM}
+			\item \textbf{Mars 2013} Achat d'une \textbf{imprimante 3D} par la Ruche Numérique
+			\item \textbf{Mai~ 2014} Mise à disposition à la Ruche d'\alert{une salle} pour le HAUM
+			\item \textbf{Juin 2014} Création d'une \alert{mission} au sein de la \alert{CCI} pour réfléchir à la création d'un fablab
+			\item \textbf{Sep. 2015} Renouveau du projet --- contacts avec \alert{Créalab} \& des entrepeneurs
+			\item \textbf{Nov. 2015} On y est.
+		\end{itemize}
+	\end{frame}
+
+	\section{Et maintenant ?}
+	\begin{frame}
+		\frametitle{Todo List}
+		\begin{itemize}
+			\item Définir les termes des partenariats
+			\item Discuter des conditions d'accès aux lieux
+			\item Informer les réseaux d'entreprises
+			\item Choisir une cible et les équipements associés
+		\end{itemize}
+	\end{frame}
+
+	\plain{Merci !\\
+	\vspace{0.25\textwidth}
+	Des questions ?\\
+	\vspace{0.15\textwidth}
+\scriptsize{\texttt{mathieu@haum.org}}\hspace{1cm}\large{|}\hspace{1cm}\scriptsize{\texttt{contact@haum.org}}
+	}
+
+
+\end{document}
+
+% vim: ts=2 sw=2
